@@ -5,7 +5,7 @@ import processing.data.TableRow;
 public class Colour {
     
     private String colour;
-    private int r, g, b;
+    public int r, g, b;
     private int value;
 
     @Override
