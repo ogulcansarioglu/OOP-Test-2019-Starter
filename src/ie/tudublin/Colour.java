@@ -8,6 +8,11 @@ public class Colour {
     private int r, g, b;
     private int value;
 
+    @Override
+    public String toString() {
+        return "Colour [b=" + b + ", colour=" + colour + ", g=" + g + ", r=" + r + ", value=" + value + "]";
+    }
+
     public Colour(TableRow row) 
     {
         colour = row.getString("colour");
